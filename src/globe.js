@@ -8,7 +8,8 @@ export function GlobeComponent() {
 
   React.useEffect(() => {
     fetch(
-      "https://raw.githubusercontent.com/vasturiano/react-globe.gl/master/example/datasets/ne_110m_admin_0_countries.geojson"
+    //   "https://raw.githubusercontent.com/vasturiano/react-globe.gl/master/example/datasets/ne_110m_admin_0_countries.geojson"
+      "https://raw.githubusercontent.com/frankCTL/ctl-globe/main/dataset/ne_110m_admin_0_countries.geojson?token=GHSAT0AAAAAAB2CVNU2VMEBW4UJ7DNXLIT4Y5W3B4Q"
     )
       .then((res) => res.json())
       .then(setCountries);
