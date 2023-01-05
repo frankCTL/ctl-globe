@@ -32,9 +32,6 @@ export function GlobeComponent() {
             <div style="font-family: 'Open sans', sans-serif; margin-bottom:10px;font-weight: 600;font-size: 13px;line-height: 16px;text-transform: capitalize;color: #2D3032;">
               ${d.ADMIN}
             </div>
-            <div style="font-family: 'Open sans', sans-serif;font-size: 13px;line-height: 16px;color: #3E4850;">
-              Staff Numbers: ${number(d.STAFF_NUM).format("0a")}
-            </div>
           </div>
         `;
       }}
