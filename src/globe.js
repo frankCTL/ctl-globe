@@ -8,8 +8,7 @@ export function GlobeComponent() {
 
   React.useEffect(() => {
     fetch(
-// "https://raw.githubusercontent.com/frankCTL/ctl-globe/main/dataset/locations.geojson?token=GHSAT0AAAAAAB2CVNU3O2Y5C2LPWTXXHPPWY5W3IWA"
-"https://raw.githubusercontent.com/frankCTL/ctl-globe/main/dataset/locations.geojson?token=GHSAT0AAAAAAB2CVNU2IWLVPIAWWASRTSSYY5W3OBQ"
+"https://raw.githubusercontent.com/frankCTL/ctl-globe/main/dataset/locations.geojson?token=GHSAT0AAAAAAB2CVNU3NA4G2RVUGQ77G656Y5W3STA"
     )
       .then((res) => res.json())
       .then(setCountries);
@@ -34,7 +33,7 @@ export function GlobeComponent() {
               ${d.ADMIN}
             </div>
             <div style="font-family: 'Open sans', sans-serif;font-size: 13px;line-height: 16px;color: #3E4850;">
-              Visitors: ${number(d.POP_EST).format("0a")}
+              Staff Numbers: ${number(d.STAFF_NUM).format("0a")}
             </div>
           </div>
         `;
