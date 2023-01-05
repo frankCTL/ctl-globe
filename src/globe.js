@@ -8,7 +8,8 @@ export function GlobeComponent() {
 
   React.useEffect(() => {
     fetch(
-"https://raw.githubusercontent.com/frankCTL/ctl-globe/main/dataset/locations.geojson?token=GHSAT0AAAAAAB2CVNU3O2Y5C2LPWTXXHPPWY5W3IWA"
+// "https://raw.githubusercontent.com/frankCTL/ctl-globe/main/dataset/locations.geojson?token=GHSAT0AAAAAAB2CVNU3O2Y5C2LPWTXXHPPWY5W3IWA"
+"https://raw.githubusercontent.com/frankCTL/ctl-globe/main/dataset/locations.geojson?token=GHSAT0AAAAAAB2CVNU2IWLVPIAWWASRTSSYY5W3OBQ"
     )
       .then((res) => res.json())
       .then(setCountries);
