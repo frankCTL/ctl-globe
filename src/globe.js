@@ -8,7 +8,7 @@ export function GlobeComponent() {
 
   React.useEffect(() => {
     fetch(
-"https://raw.githubusercontent.com/frankCTL/ctl-globe/main/dataset/locations.geojson?token=GHSAT0AAAAAAB2CVNU2LSO42GHYVQGZBU2AY5XLBZQ"
+"https://raw.githubusercontent.com/frankCTL/ctl-globe/main/dataset/locations.geojson"
     )
       .then((res) => res.json())
       .then(setCountries);
