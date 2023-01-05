@@ -1,6 +1,5 @@
 import React from "react";
 import Globe from "react-globe.gl";
-import number from "numeral";
 
 export function GlobeComponent() {
   const [countries, setCountries] = React.useState({ features: [] });
