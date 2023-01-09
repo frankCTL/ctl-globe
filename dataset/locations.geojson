@@ -1749,811 +1749,984 @@
             }
         },
         {
-      "type": "Feature",
-      "properties": {
-        "scalerank": 1,
-        "featurecla": "Admin-0 country",
-        "LABELRANK": 5,
-        "SOVEREIGNT": "United Kingdom",
-        "SOV_A3": "GB1",
-        "ADM0_DIF": 1,
-        "LEVEL": 2,
-        "TYPE": "Dependency",
-        "ADMIN": "Falkland Islands",
-        "ADM0_A3": "FLK",
-        "GEOU_DIF": 0,
-        "GEOUNIT": "Falkland Islands",
-        "GU_A3": "FLK",
-        "SU_DIF": 0,
-        "SUBUNIT": "Falkland Islands",
-        "SU_A3": "FLK",
-        "BRK_DIFF": 1,
-        "NAME": "Falkland Is.",
-        "NAME_LONG": "Falkland Islands",
-        "BRK_A3": "B12",
-        "BRK_NAME": "Falkland Is.",
-        "BRK_GROUP": null,
-        "ABBREV": "Flk. Is.",
-        "POSTAL": "FK",
-        "FORMAL_EN": "Falkland Islands",
-        "FORMAL_FR": null,
-        "NAME_CIAWF": "Falkland Islands (Islas Malvinas)",
-        "NOTE_ADM0": "U.K.",
-        "NOTE_BRK": "Admin. by U.K.; Claimed by Argentina",
-        "NAME_SORT": "Falkland Islands",
-        "NAME_ALT": "Islas Malvinas",
-        "MAPCOLOR7": 6,
-        "MAPCOLOR8": 6,
-        "MAPCOLOR9": 6,
-        "MAPCOLOR13": 3,
-        "POP_EST": 2931,
-        "POP_RANK": 4,
-        "GDP_MD_EST": 281.8,
-        "POP_YEAR": 2014,
-        "LASTCENSUS": -99,
-        "GDP_YEAR": 2012,
-        "ECONOMY": "2. Developed region: nonG7",
-        "INCOME_GRP": "1. High income: OECD",
-        "WIKIPEDIA": -99,
-        "FIPS_10_": "FK",
-        "ISO_A2": "FK",
-        "ISO_A3": "FLK",
-        "ISO_A3_EH": "FLK",
-        "ISO_N3": "238",
-        "UN_A3": "238",
-        "WB_A2": "-99",
-        "WB_A3": "-99",
-        "WOE_ID": 23424814,
-        "WOE_ID_EH": 23424814,
-        "WOE_NOTE": "Exact WOE match as country",
-        "ADM0_A3_IS": "FLK",
-        "ADM0_A3_US": "FLK",
-        "ADM0_A3_UN": -99,
-        "ADM0_A3_WB": -99,
-        "CONTINENT": "South America",
-        "REGION_UN": "Americas",
-        "SUBREGION": "South America",
-        "REGION_WB": "Latin America & Caribbean",
-        "NAME_LEN": 12,
-        "LONG_LEN": 16,
-        "ABBREV_LEN": 8,
-        "TINY": -99,
-        "HOMEPART": -99,
-        "MIN_ZOOM": 0,
-        "MIN_LABEL": 4.5,
-        "MAX_LABEL": 9
-      },
-      "bbox": [
-        -61.2,
-        -52.3,
-        -57.75,
-        -51.1
-      ],
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -61.2,
-              -51.85
+            "type": "Feature",
+            "properties": {
+                "scalerank": 1,
+                "featurecla": "Admin-0 country",
+                "LABELRANK": 5,
+                "SOVEREIGNT": "United Kingdom",
+                "SOV_A3": "GB1",
+                "ADM0_DIF": 1,
+                "LEVEL": 2,
+                "TYPE": "Dependency",
+                "ADMIN": "Falkland Islands",
+                "ADM0_A3": "FLK",
+                "GEOU_DIF": 0,
+                "GEOUNIT": "Falkland Islands",
+                "GU_A3": "FLK",
+                "SU_DIF": 0,
+                "SUBUNIT": "Falkland Islands",
+                "SU_A3": "FLK",
+                "BRK_DIFF": 1,
+                "NAME": "Falkland Is.",
+                "NAME_LONG": "Falkland Islands",
+                "BRK_A3": "B12",
+                "BRK_NAME": "Falkland Is.",
+                "BRK_GROUP": null,
+                "ABBREV": "Flk. Is.",
+                "POSTAL": "FK",
+                "FORMAL_EN": "Falkland Islands",
+                "FORMAL_FR": null,
+                "NAME_CIAWF": "Falkland Islands (Islas Malvinas)",
+                "NOTE_ADM0": "U.K.",
+                "NOTE_BRK": "Admin. by U.K.; Claimed by Argentina",
+                "NAME_SORT": "Falkland Islands",
+                "NAME_ALT": "Islas Malvinas",
+                "MAPCOLOR7": 6,
+                "MAPCOLOR8": 6,
+                "MAPCOLOR9": 6,
+                "MAPCOLOR13": 3,
+                "POP_EST": 2931,
+                "POP_RANK": 4,
+                "GDP_MD_EST": 281.8,
+                "POP_YEAR": 2014,
+                "LASTCENSUS": -99,
+                "GDP_YEAR": 2012,
+                "ECONOMY": "2. Developed region: nonG7",
+                "INCOME_GRP": "1. High income: OECD",
+                "WIKIPEDIA": -99,
+                "FIPS_10_": "FK",
+                "ISO_A2": "FK",
+                "ISO_A3": "FLK",
+                "ISO_A3_EH": "FLK",
+                "ISO_N3": "238",
+                "UN_A3": "238",
+                "WB_A2": "-99",
+                "WB_A3": "-99",
+                "WOE_ID": 23424814,
+                "WOE_ID_EH": 23424814,
+                "WOE_NOTE": "Exact WOE match as country",
+                "ADM0_A3_IS": "FLK",
+                "ADM0_A3_US": "FLK",
+                "ADM0_A3_UN": -99,
+                "ADM0_A3_WB": -99,
+                "CONTINENT": "South America",
+                "REGION_UN": "Americas",
+                "SUBREGION": "South America",
+                "REGION_WB": "Latin America & Caribbean",
+                "NAME_LEN": 12,
+                "LONG_LEN": 16,
+                "ABBREV_LEN": 8,
+                "TINY": -99,
+                "HOMEPART": -99,
+                "MIN_ZOOM": 0,
+                "MIN_LABEL": 4.5,
+                "MAX_LABEL": 9
+            },
+            "bbox": [
+                -61.2,
+                -52.3,
+                -57.75,
+                -51.1
             ],
-            [
-              -60,
-              -51.25
-            ],
-            [
-              -59.15,
-              -51.5
-            ],
-            [
-              -58.55,
-              -51.1
-            ],
-            [
-              -57.75,
-              -51.55
-            ],
-            [
-              -58.05,
-              -51.9
-            ],
-            [
-              -59.4,
-              -52.2
-            ],
-            [
-              -59.85,
-              -51.85
-            ],
-            [
-              -60.7,
-              -52.3
-            ],
-            [
-              -61.2,
-              -51.85
-            ]
-          ]
-        ]
-      }
-    },
-     {
-      "type": "Feature",
-      "properties": {
-        "scalerank": 1,
-        "featurecla": "Admin-0 country",
-        "LABELRANK": 2,
-        "SOVEREIGNT": "United Kingdom",
-        "SOV_A3": "GB1",
-        "ADM0_DIF": 1,
-        "LEVEL": 2,
-        "TYPE": "Country",
-        "ADMIN": "United Kingdom",
-        "ADM0_A3": "GBR",
-        "GEOU_DIF": 0,
-        "GEOUNIT": "United Kingdom",
-        "GU_A3": "GBR",
-        "SU_DIF": 0,
-        "SUBUNIT": "United Kingdom",
-        "SU_A3": "GBR",
-        "BRK_DIFF": 0,
-        "NAME": "United Kingdom",
-        "NAME_LONG": "United Kingdom",
-        "BRK_A3": "GBR",
-        "BRK_NAME": "United Kingdom",
-        "BRK_GROUP": null,
-        "ABBREV": "U.K.",
-        "POSTAL": "GB",
-        "FORMAL_EN": "United Kingdom of Great Britain and Northern Ireland",
-        "FORMAL_FR": null,
-        "NAME_CIAWF": "United Kingdom",
-        "NOTE_ADM0": null,
-        "NOTE_BRK": null,
-        "NAME_SORT": "United Kingdom",
-        "NAME_ALT": null,
-        "MAPCOLOR7": 6,
-        "MAPCOLOR8": 6,
-        "MAPCOLOR9": 6,
-        "MAPCOLOR13": 3,
-        "POP_EST": 64769452,
-        "POP_RANK": 16,
-        "GDP_MD_EST": 2788000,
-        "POP_YEAR": 2017,
-        "LASTCENSUS": 2011,
-        "GDP_YEAR": 2016,
-        "ECONOMY": "1. Developed region: G7",
-        "INCOME_GRP": "1. High income: OECD",
-        "WIKIPEDIA": -99,
-        "FIPS_10_": "UK",
-        "ISO_A2": "GB",
-        "ISO_A3": "GBR",
-        "ISO_A3_EH": "GBR",
-        "ISO_N3": "826",
-        "UN_A3": "826",
-        "WB_A2": "GB",
-        "WB_A3": "GBR",
-        "WOE_ID": -90,
-        "WOE_ID_EH": 23424975,
-        "WOE_NOTE": "Eh ID includes Channel Islands and Isle of Man. UK constituent countries of England (24554868), Wales (12578049), Scotland (12578048), and Northern Ireland (20070563).",
-        "ADM0_A3_IS": "GBR",
-        "ADM0_A3_US": "GBR",
-        "ADM0_A3_UN": -99,
-        "ADM0_A3_WB": -99,
-        "CONTINENT": "Europe",
-        "REGION_UN": "Europe",
-        "SUBREGION": "Northern Europe",
-        "REGION_WB": "Europe & Central Asia",
-        "NAME_LEN": 14,
-        "LONG_LEN": 14,
-        "ABBREV_LEN": 4,
-        "TINY": -99,
-        "HOMEPART": 1,
-        "MIN_ZOOM": 0,
-        "MIN_LABEL": 1.7,
-        "MAX_LABEL": 6.7
-      },
-      "bbox": [
-        -7.572168,
-        49.96,
-        1.681531,
-        58.635
-      ],
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-
-
-
-          [
-            [
-                [
-                    361.4687347,
-                    51.2108625
-                  ],
-                  [
-                    361.4907074,
-                    51.4168734
-                  ],
-                  [
-                    360.8864594,
-                    51.4784964
-                  ],
-                  [
-                    361.2490082,
-                    51.6151387
-                  ],
-                  [
-                    361.3808441,
-                    51.8668461
-                  ],
-                  [
-                    361.6335297,
-                    52.0361255
-                  ],
-                  [
-                    361.8642426,
-                    52.5267703
-                  ],
-                  [
-                    361.710434,
-                    52.760087
-                  ],
-                  [
-                    361.4577484,
-                    52.9061067
-                  ],
-                  [
-                    361.1391449,
-                    52.9921605
-                  ],
-                  [
-                    360.8205414,
-                    53.0252126
-                  ],
-                  [
-                    360.5898285,
-                    52.998773
-                  ],
-                  [
-                    360.4030609,
-                    52.9723172
-                  ],
-                  [
-                    360.3151703,
-                    52.8862239
-                  ],
-                  [
-                    360.1613617,
-                    52.9392246
-                  ],
-                  [
-                    360.4250336,
-                    53.0912407
-                  ],
-                  [
-                    360.4470062,
-                    53.2164156
-                  ],
-                  [
-                    360.205307,
-                    53.5179611
-                  ],
-                  [
-                    360.2822113,
-                    53.6093125
-                  ],
-                  [
-                    359.8867035,
-                    53.9727483
-                  ],
-                  [
-                    359.8647308,
-                    54.0631157
-                  ],
-                  [
-                    359.9855804,
-                    54.1082258
-                  ],
-                  [
-                    359.9306488,
-                    54.1790141
-                  ],
-                  [
-                    359.6340179,
-                    54.3074103
-                  ],
-                  [
-                    359.5907378,
-                    54.3624328
-                  ],
-                  [
-                    359.5467925,
-                    54.4168074
-                  ],
-                  [
-                    359.4698882,
-                    54.4838766
-                  ],
-                  [
-                    359.3380523,
-                    54.5285284
-                  ],
-                  [
-                    358.9425445,
-                    54.6272266
-                  ],
-                  [
-                    358.7392974,
-                    54.7795784
-                  ],
-                  [
-                    358.6665881,
-                    54.9556448
-                  ],
-                  [
-                    358.6061633,
-                    55.0359972
-                  ],
-                  [
-                    358.4935534,
-                    55.157009
-                  ],
-                  [
-                    358.3891833,
-                    55.5691312
-                  ],
-                  [
-                    358.0348742,
-                    55.7998397
-                  ],
-                  [
-                    356.9564438,
-                    54.9982536
-                  ],
-                  [
-                    356.5747762,
-                    54.8420987
-                  ],
-                  [
-                    356.5006185,
-                    54.7217204
-                  ],
-                  [
-                    356.4017415,
-                    54.5723353
-                  ],
-                  [
-                    356.3577962,
-                    54.5165729
-                  ],
-                  [
-                    356.7465663,
-                    54.0451663
-                  ],
-                  [
-                    356.9360805,
-                    54.0354892
-                  ],
-                  [
-                    357.0596766,
-                    54.0612896
-                  ],
-                  [
-                    357.0843959,
-                    53.957992
-                  ],
-                  [
-                    356.9305873,
-                    53.9240416
-                  ],
-                  [
-                    356.9250405,
-                    53.7413381
-                  ],
-                  [
-                    357.0239174,
-                    53.7153394
-                  ],
-                  [
-                    356.9799721,
-                    53.6681758
-                  ],
-                  [
-                    356.8563759,
-                    53.5687971
-                  ],
-                  [
-                    356.8838418,
-                    53.5280005
-                  ],
-                  [
-                    356.9338703,
-                    53.4442062
-                  ],
-                  [
-                    356.7937946,
-                    53.3934637
-                  ],
-                  [
-                    356.8624592,
-                    53.3114933
-                  ],
-                  [
-                    356.955843,
-                    53.2293651
-                  ],
-                  [
-                    357.0959187,
-                    53.1651957
-                  ],
-                  [
-                    356.9532788,
-                    52.9631998
-                  ],
-                  [
-                    356.8610001,
-                    52.8792705
-                  ],
-                  [
-                    356.841774,
-                    52.8228771
-                  ],
-                  [
-                    356.9543839,
-                    52.769734
-                  ],
-                  [
-                    357.0120621,
-                    52.704878
-                  ],
-                  [
-                    356.9296646,
-                    52.6299242
-                  ],
-                  [
-                    356.9159317,
-                    52.5481616
-                  ],
-                  [
-                    357.5573337,
-                    51.7765435
-                  ],
-                  [
-                    357.5353611,
-                    51.7391413
-                  ],
-                  [
-                    357.3513401,
-                    51.5721553
-                  ],
-                  [
-                    357.0602024,
-                    51.4028401
-                  ],
-                  [
-                    356.9860446,
-                    51.3153717
-                  ],
-                  [
-                    356.964072,
-                    51.2225759
-                  ],
-                  [
-                    356.8914485,
-                    51.2185777
-                  ],
-                  [
-                    356.7651057,
-                    51.2151369
-                  ],
-                  [
-                    356.6882014,
-                    51.1927656
-                  ],
-                  [
-                    356.5948176,
-                    51.1893229
-                  ],
-                  [
-                    356.5179133,
-                    51.220298
-                  ],
-                  [
-                    356.454742,
-                    51.239217
-                  ],
-                  [
-                    356.171844,
-                    51.2374974
-                  ],
-                  [
-                    355.8861995,
-                    51.2134164
-                  ],
-                  [
-                    355.737884,
-                    51.2065339
-                  ],
-                  [
-                    355.7241511,
-                    51.0462237
-                  ],
-                  [
-                    355.6719661,
-                    51.0082194
-                  ],
-                  [
-                    355.5840755,
-                    51.0116756
-                  ],
-                  [
-                    355.4769588,
-                    51.0289529
-                  ],
-                  [
-                    355.4330134,
-                    50.9165358
-                  ],
-                  [
-                    355.357461,
-                    50.8343753
-                  ],
-                  [
-                    355.258584,
-                    50.7023562
-                  ],
-                  [
-                    355.0388575,
-                    50.5839178
-                  ],
-                  [
-                    354.8960352,
-                    50.5141088
-                  ],
-                  [
-                    354.8960352,
-                    50.4021992
-                  ],
-                  [
-                    354.262476,
-                    50.1379927
-                  ],
-                  [
-                    354.262476,
-                    49.9969536
-                  ],
-                  [
-                    354.5261478,
-                    50.0110762
-                  ],
-                  [
-                    354.6579838,
-                    50.0251946
-                  ],
-                  [
-                    354.8227787,
-                    49.9404218
-                  ],
-                  [
-                    354.9216557,
-                    49.9898908
-                  ],
-                  [
-                    354.965601,
-                    50.0886762
-                  ],
-                  [
-                    355.2951908,
-                    50.2294457
-                  ],
-                  [
-                    355.53689,
-                    50.2926568
-                  ],
-                  [
-                    355.8005619,
-                    50.3066924
-                  ],
-                  [
-                    356.0093021,
-                    50.2645734
-                  ],
-                  [
-                    356.2180424,
-                    50.1731877
-                  ],
-                  [
-                    356.4377689,
-                    50.2224171
-                  ],
-                  [
-                    356.6135502,
-                    50.558624
-                  ],
-                  [
-                    357.1518803,
-                    50.6910477
-                  ],
-                  [
-                    357.4704838,
-                    50.544663
-                  ],
-                  [
-                    357.81106,
-                    50.6074551
-                  ],
-                  [
-                    358.0637455,
-                    50.5865337
-                  ],
-                  [
-                    358.1296635,
-                    50.6840874
-                  ],
-                  [
-                    358.7009525,
-                    50.558624
-                  ],
-                  [
-                    358.9646244,
-                    50.7188789
-                  ],
-                  [
-                    360.1731205,
-                    50.7119227
-                  ],
-                  [
-                    360.7444096,
-                    50.8716552
-                  ],
-                  [
-                    360.9751225,
-                    50.8993791
-                  ],
-                  [
-                    361.4695072,
-                    51.2170186
-                  ]
-            ]
-          ]
-        ]
-      }
-    },
-    {
-        "type": "Feature",
-        "properties": {
-          "scalerank": 1,
-          "featurecla": "Admin-0 country",
-          "LABELRANK": 2,
-          "SOVEREIGNT": "United Kingdom",
-          "SOV_A3": "GB1",
-          "ADM0_DIF": 1,
-          "LEVEL": 2,
-          "TYPE": "Country",
-          "ADMIN": "Scotland",
-          "ADM0_A3": "GBR",
-          "GEOU_DIF": 0,
-          "GEOUNIT": "Scotland",
-          "GU_A3": "GBR",
-          "SU_DIF": 0,
-          "SUBUNIT": "Scotland",
-          "SU_A3": "GBR",
-          "BRK_DIFF": 0,
-          "NAME": "Scotland",
-          "NAME_LONG": "Scotland",
-          "BRK_A3": "GBR",
-          "BRK_NAME": "Scotland",
-          "BRK_GROUP": null,
-          "ABBREV": "U.K.",
-          "POSTAL": "GB",
-          "FORMAL_EN": "United Kingdom of Great Britain and Northern Ireland",
-          "FORMAL_FR": null,
-          "NAME_CIAWF": "Scotland",
-          "NOTE_ADM0": null,
-          "NOTE_BRK": null,
-          "NAME_SORT": "Scotland",
-          "NAME_ALT": null,
-          "MAPCOLOR7": 6,
-          "MAPCOLOR8": 6,
-          "MAPCOLOR9": 6,
-          "MAPCOLOR13": 3,
-          "POP_EST": 64769452,
-          "POP_RANK": 16,
-          "GDP_MD_EST": 2788000,
-          "POP_YEAR": 2017,
-          "LASTCENSUS": 2011,
-          "GDP_YEAR": 2016,
-          "ECONOMY": "1. Developed region: G7",
-          "INCOME_GRP": "1. High income: OECD",
-          "WIKIPEDIA": -99,
-          "FIPS_10_": "UK",
-          "ISO_A2": "GB",
-          "ISO_A3": "GBR",
-          "ISO_A3_EH": "GBR",
-          "ISO_N3": "826",
-          "UN_A3": "826",
-          "WB_A2": "GB",
-          "WB_A3": "GBR",
-          "WOE_ID": -90,
-          "WOE_ID_EH": 23424975,
-          "WOE_NOTE": "Eh ID includes Channel Islands and Isle of Man. UK constituent countries of England (24554868), Wales (12578049), Scotland (12578048), and Northern Ireland (20070563).",
-          "ADM0_A3_IS": "GBR",
-          "ADM0_A3_US": "GBR",
-          "ADM0_A3_UN": -99,
-          "ADM0_A3_WB": -99,
-          "CONTINENT": "Europe",
-          "REGION_UN": "Europe",
-          "SUBREGION": "Northern Europe",
-          "REGION_WB": "Europe & Central Asia",
-          "NAME_LEN": 14,
-          "LONG_LEN": 14,
-          "ABBREV_LEN": 4,
-          "TINY": -99,
-          "HOMEPART": 1,
-          "MIN_ZOOM": 0,
-          "MIN_LABEL": 1.7,
-          "MAX_LABEL": 6.7
-        },
-        "bbox": [
-          -7.572168,
-          49.96,
-          1.681531,
-          58.635
-        ],
-        "geometry": {
-          "type": "MultiPolygon",
-          "coordinates": [
-            [
-              [
-                [
-                    -2.040621,
-                    55.805391
-                ],
-                [
-                    -3.164191,
-                    54.95732
-                ],
-                [
-                    -4.95631,
-                    54.633474
-                ],
-                [
-                    -5.211152,
-                    54.999779
-                ],
-                [
-                    -5.802427,
-                    55.261594
-                ],
-                [
-                    -5.564479,
-                    58.575803
-                ],
-                [
-                    -2.835532,
-                    58.595288
-                ],
-                [
-                    -3.919634,
-                    57.627699
-                ],
-                [
-                    -1.601899,
-                    57.637705
-                ],
-                [
-                    -2.517778,
-                    56.261728
-                ],
-                [
-                    -2.013903,
-                    55.828963
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -61.2,
+                            -51.85
+                        ],
+                        [
+                            -60,
+                            -51.25
+                        ],
+                        [
+                            -59.15,
+                            -51.5
+                        ],
+                        [
+                            -58.55,
+                            -51.1
+                        ],
+                        [
+                            -57.75,
+                            -51.55
+                        ],
+                        [
+                            -58.05,
+                            -51.9
+                        ],
+                        [
+                            -59.4,
+                            -52.2
+                        ],
+                        [
+                            -59.85,
+                            -51.85
+                        ],
+                        [
+                            -60.7,
+                            -52.3
+                        ],
+                        [
+                            -61.2,
+                            -51.85
+                        ]
+                    ]
                 ]
-              ]
-            ]
-          ]
-        }
-      },
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "scalerank": 1,
+                "featurecla": "Admin-0 country",
+                "LABELRANK": 2,
+                "SOVEREIGNT": "United Kingdom",
+                "SOV_A3": "GB1",
+                "ADM0_DIF": 1,
+                "LEVEL": 2,
+                "TYPE": "Country",
+                "ADMIN": "United Kingdom",
+                "ADM0_A3": "GBR",
+                "GEOU_DIF": 0,
+                "GEOUNIT": "United Kingdom",
+                "GU_A3": "GBR",
+                "SU_DIF": 0,
+                "SUBUNIT": "United Kingdom",
+                "SU_A3": "GBR",
+                "BRK_DIFF": 0,
+                "NAME": "United Kingdom",
+                "NAME_LONG": "United Kingdom",
+                "BRK_A3": "GBR",
+                "BRK_NAME": "United Kingdom",
+                "BRK_GROUP": null,
+                "ABBREV": "U.K.",
+                "POSTAL": "GB",
+                "FORMAL_EN": "United Kingdom of Great Britain and Northern Ireland",
+                "FORMAL_FR": null,
+                "NAME_CIAWF": "United Kingdom",
+                "NOTE_ADM0": null,
+                "NOTE_BRK": null,
+                "NAME_SORT": "United Kingdom",
+                "NAME_ALT": null,
+                "MAPCOLOR7": 6,
+                "MAPCOLOR8": 6,
+                "MAPCOLOR9": 6,
+                "MAPCOLOR13": 3,
+                "POP_EST": 64769452,
+                "POP_RANK": 16,
+                "GDP_MD_EST": 2788000,
+                "POP_YEAR": 2017,
+                "LASTCENSUS": 2011,
+                "GDP_YEAR": 2016,
+                "ECONOMY": "1. Developed region: G7",
+                "INCOME_GRP": "1. High income: OECD",
+                "WIKIPEDIA": -99,
+                "FIPS_10_": "UK",
+                "ISO_A2": "GB",
+                "ISO_A3": "GBR",
+                "ISO_A3_EH": "GBR",
+                "ISO_N3": "826",
+                "UN_A3": "826",
+                "WB_A2": "GB",
+                "WB_A3": "GBR",
+                "WOE_ID": -90,
+                "WOE_ID_EH": 23424975,
+                "WOE_NOTE": "Eh ID includes Channel Islands and Isle of Man. UK constituent countries of England (24554868), Wales (12578049), Scotland (12578048), and Northern Ireland (20070563).",
+                "ADM0_A3_IS": "GBR",
+                "ADM0_A3_US": "GBR",
+                "ADM0_A3_UN": -99,
+                "ADM0_A3_WB": -99,
+                "CONTINENT": "Europe",
+                "REGION_UN": "Europe",
+                "SUBREGION": "Northern Europe",
+                "REGION_WB": "Europe & Central Asia",
+                "NAME_LEN": 14,
+                "LONG_LEN": 14,
+                "ABBREV_LEN": 4,
+                "TINY": -99,
+                "HOMEPART": 1,
+                "MIN_ZOOM": 0,
+                "MIN_LABEL": 1.7,
+                "MAX_LABEL": 6.7
+            },
+            "bbox": [
+                -7.572168,
+                49.96,
+                1.681531,
+                58.635
+            ],
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -0.664418,
+                                50.736596
+                            ],
+                            [
+                                0.060679,
+                                50.7505
+                            ],
+                            [
+                                0.23646,
+                                50.708775
+                            ],
+                            [
+                                0.434214,
+                                50.778296
+                            ],
+                            [
+                                0.80775,
+                                50.861584
+                            ],
+                            [
+                                1.005503,
+                                50.861584
+                            ],
+                            [
+                                0.983531,
+                                51.013894
+                            ],
+                            [
+                                1.444957,
+                                51.096762
+                            ],
+                            [
+                                1.466929,
+                                51.413051
+                            ],
+                            [
+                                0.851695,
+                                51.454145
+                            ],
+                            [
+                                1.071421,
+                                51.713554
+                            ],
+                            [
+                                1.55482,
+                                51.957944
+                            ],
+                            [
+                                1.818492,
+                                52.281738
+                            ],
+                            [
+                                1.862437,
+                                52.696496
+                            ],
+                            [
+                                1.730601,
+                                52.869264
+                            ],
+                            [
+                                1.422984,
+                                52.948772
+                            ],
+                            [
+                                0.873667,
+                                52.962009
+                            ],
+                            [
+                                0.631968,
+                                53.014917
+                            ],
+                            [
+                                0.324351,
+                                52.975242
+                            ],
+                            [
+                                0.302378,
+                                52.948772
+                            ],
+                            [
+                                0.302378,
+                                52.842729
+                            ],
+                            [
+                                0.214488,
+                                52.895783
+                            ],
+                            [
+                                0.192515,
+                                52.975242
+                            ],
+                            [
+                                0.368296,
+                                53.06776
+                            ],
+                            [
+                                0.412242,
+                                53.199585
+                            ],
+                            [
+                                0.14857,
+                                53.475102
+                            ],
+                            [
+                                -0.071157,
+                                53.579593
+                            ],
+                            [
+                                0.170542,
+                                53.605676
+                            ],
+                            [
+                                -0.027211,
+                                53.839695
+                            ],
+                            [
+                                -0.18102,
+                                54.02081
+                            ],
+                            [
+                                -0.049184,
+                                54.085304
+                            ],
+                            [
+                                -0.224965,
+                                54.175427
+                            ],
+                            [
+                                -0.356801,
+                                54.342278
+                            ],
+                            [
+                                -0.422497,
+                                54.428355
+                            ],
+                            [
+                                -0.730114,
+                                54.568716
+                            ],
+                            [
+                                -1.147594,
+                                54.657785
+                            ],
+                            [
+                                -1.367321,
+                                54.885927
+                            ],
+                            [
+                                -1.499157,
+                                55.26331
+                            ],
+                            [
+                                -1.630993,
+                                55.587502
+                            ],
+                            [
+                                -2.026501,
+                                55.809176
+                            ],
+                            [
+                                -2.312145,
+                                55.648327
+                            ],
+                            [
+                                -2.235241,
+                                55.430751
+                            ],
+                            [
+                                -2.422008,
+                                55.368365
+                            ],
+                            [
+                                -2.586803,
+                                55.287116
+                            ],
+                            [
+                                -2.751598,
+                                55.14296
+                            ],
+                            [
+                                -2.971325,
+                                55.061249
+                            ],
+                            [
+                                -3.213024,
+                                54.998281
+                            ],
+                            [
+                                -3.34486,
+                                54.973066
+                            ],
+                            [
+                                -3.487682,
+                                54.789783
+                            ],
+                            [
+                                -3.652477,
+                                54.516482
+                            ],
+                            [
+                                -3.5536,
+                                54.429798
+                            ],
+                            [
+                                -3.432751,
+                                54.28896
+                            ],
+                            [
+                                -3.333874,
+                                54.160506
+                            ],
+                            [
+                                -3.234997,
+                                54.031653
+                            ],
+                            [
+                                -3.191051,
+                                54.038105
+                            ],
+                            [
+                                -3.070202,
+                                54.17337
+                            ],
+                            [
+                                -2.861462,
+                                54.17337
+                            ],
+                            [
+                                -2.861462,
+                                54.076797
+                            ],
+                            [
+                                -2.927379,
+                                54.044556
+                            ],
+                            [
+                                -2.905407,
+                                53.986459
+                            ],
+                            [
+                                -2.927379,
+                                53.954148
+                            ],
+                            [
+                                -3.092174,
+                                53.915342
+                            ],
+                            [
+                                -3.103161,
+                                53.759755
+                            ],
+                            [
+                                -2.982311,
+                                53.733768
+                            ],
+                            [
+                                -3.059215,
+                                53.65571
+                            ],
+                            [
+                                -3.125133,
+                                53.564459
+                            ],
+                            [
+                                -3.169079,
+                                53.512227
+                            ],
+                            [
+                                -3.256969,
+                                53.407569
+                            ],
+                            [
+                                -3.147106,
+                                53.296088
+                            ],
+                            [
+                                -2.938366,
+                                53.138205
+                            ],
+                            [
+                                -2.773571,
+                                52.979741
+                            ],
+                            [
+                                -2.784557,
+                                52.906916
+                            ],
+                            [
+                                -3.114147,
+                                52.906916
+                            ],
+                            [
+                                -3.180065,
+                                52.794128
+                            ],
+                            [
+                                -3.048229,
+                                52.720991
+                            ],
+                            [
+                                -3.059215,
+                                52.581025
+                            ],
+                            [
+                                -3.114147,
+                                52.494155
+                            ],
+                            [
+                                -3.180065,
+                                52.420515
+                            ],
+                            [
+                                -3.026256,
+                                52.34004
+                            ],
+                            [
+                                -3.039928,
+                                52.218152
+                            ],
+                            [
+                                -3.083873,
+                                52.137308
+                            ],
+                            [
+                                -3.072887,
+                                52.002242
+                            ],
+                            [
+                                -2.97401,
+                                51.927782
+                            ],
+                            [
+                                -2.842174,
+                                51.880333
+                            ],
+                            [
+                                -2.721325,
+                                51.846411
+                            ],
+                            [
+                                -2.666393,
+                                51.724078
+                            ],
+                            [
+                                -2.666393,
+                                51.63552
+                            ],
+                            [
+                                -2.721325,
+                                51.512616
+                            ],
+                            [
+                                -2.952037,
+                                51.375666
+                            ],
+                            [
+                                -3.039928,
+                                51.252059
+                            ],
+                            [
+                                -3.105846,
+                                51.197016
+                            ],
+                            [
+                                -3.325573,
+                                51.197016
+                            ],
+                            [
+                                -3.501354,
+                                51.197016
+                            ],
+                            [
+                                -3.688121,
+                                51.210783
+                            ],
+                            [
+                                -3.797985,
+                                51.210783
+                            ],
+                            [
+                                -3.951793,
+                                51.210783
+                            ],
+                            [
+                                -4.17152,
+                                51.210783
+                            ],
+                            [
+                                -4.226452,
+                                51.148799
+                            ],
+                            [
+                                -4.226452,
+                                51.038399
+                            ],
+                            [
+                                -4.248424,
+                                51.024581
+                            ],
+                            [
+                                -4.358287,
+                                51.010758
+                            ],
+                            [
+                                -4.523082,
+                                51.031491
+                            ],
+                            [
+                                -4.536651,
+                                50.952173
+                            ],
+                            [
+                                -4.580596,
+                                50.792717
+                            ],
+                            [
+                                -4.756378,
+                                50.688429
+                            ],
+                            [
+                                -4.822296,
+                                50.625745
+                            ],
+                            [
+                                -4.954132,
+                                50.597859
+                            ],
+                            [
+                                -5.063995,
+                                50.535054
+                            ],
+                            [
+                                -5.074981,
+                                50.409193
+                            ],
+                            [
+                                -5.195831,
+                                50.353147
+                            ],
+                            [
+                                -5.448516,
+                                50.254907
+                            ],
+                            [
+                                -5.657257,
+                                50.219772
+                            ],
+                            [
+                                -5.789093,
+                                50.114213
+                            ],
+                            [
+                                -5.690216,
+                                50.04371
+                            ],
+                            [
+                                -5.613311,
+                                50.036654
+                            ],
+                            [
+                                -5.536407,
+                                50.04371
+                            ],
+                            [
+                                -5.536407,
+                                50.114213
+                            ],
+                            [
+                                -5.305694,
+                                50.078974
+                            ],
+                            [
+                                -5.283721,
+                                49.95897
+                            ],
+                            [
+                                -5.10794,
+                                49.966037
+                            ],
+                            [
+                                -4.932159,
+                                50.04371
+                            ],
+                            [
+                                -4.943145,
+                                50.135343
+                            ],
+                            [
+                                -4.712432,
+                                50.290016
+                            ],
+                            [
+                                -4.251007,
+                                50.311069
+                            ],
+                            [
+                                -4.042266,
+                                50.311069
+                            ],
+                            [
+                                -3.877471,
+                                50.247882
+                            ],
+                            [
+                                -3.668731,
+                                50.184612
+                            ],
+                            [
+                                -3.624786,
+                                50.268954
+                            ],
+                            [
+                                -3.525909,
+                                50.346136
+                            ],
+                            [
+                                -3.459991,
+                                50.409193
+                            ],
+                            [
+                                -3.438018,
+                                50.576933
+                            ],
+                            [
+                                -2.965606,
+                                50.709305
+                            ],
+                            [
+                                -2.614044,
+                                50.639682
+                            ],
+                            [
+                                -2.482208,
+                                50.542036
+                            ],
+                            [
+                                -2.361358,
+                                50.542036
+                            ],
+                            [
+                                -2.372345,
+                                50.618775
+                            ],
+                            [
+                                -2.141632,
+                                50.576933
+                            ],
+                            [
+                                -1.921905,
+                                50.583909
+                            ],
+                            [
+                                -1.888946,
+                                50.66058
+                            ],
+                            [
+                                -1.904228,
+                                50.699064
+                            ],
+                            [
+                                -1.813591,
+                                50.702543
+                            ],
+                            [
+                                -1.679009,
+                                50.716458
+                            ],
+                            [
+                                -1.610344,
+                                50.71124
+                            ],
+                            [
+                                -1.574639,
+                                50.676443
+                            ],
+                            [
+                                -1.442803,
+                                50.646845
+                            ],
+                            [
+                                -1.343926,
+                                50.596312
+                            ],
+                            [
+                                -1.253289,
+                                50.573641
+                            ],
+                            [
+                                -1.170891,
+                                50.601542
+                            ],
+                            [
+                                -1.126946,
+                                50.620714
+                            ],
+                            [
+                                -1.096733,
+                                50.681664
+                            ],
+                            [
+                                -1.039055,
+                                50.719936
+                            ],
+                            [
+                                -0.984123,
+                                50.73906
+                            ],
+                            [
+                                -0.896233,
+                                50.73906
+                            ],
+                            [
+                                -0.824822,
+                                50.730368
+                            ],
+                            [
+                                -0.772637,
+                                50.702543
+                            ],
+                            [
+                                -0.66042,
+                                50.737329
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "scalerank": 1,
+                "featurecla": "Admin-0 country",
+                "LABELRANK": 2,
+                "SOVEREIGNT": "United Kingdom",
+                "SOV_A3": "GB1",
+                "ADM0_DIF": 1,
+                "LEVEL": 2,
+                "TYPE": "Country",
+                "ADMIN": "Scotland",
+                "ADM0_A3": "GBR",
+                "GEOU_DIF": 0,
+                "GEOUNIT": "Scotland",
+                "GU_A3": "GBR",
+                "SU_DIF": 0,
+                "SUBUNIT": "Scotland",
+                "SU_A3": "GBR",
+                "BRK_DIFF": 0,
+                "NAME": "Scotland",
+                "NAME_LONG": "Scotland",
+                "BRK_A3": "GBR",
+                "BRK_NAME": "Scotland",
+                "BRK_GROUP": null,
+                "ABBREV": "U.K.",
+                "POSTAL": "GB",
+                "FORMAL_EN": "United Kingdom of Great Britain and Northern Ireland",
+                "FORMAL_FR": null,
+                "NAME_CIAWF": "Scotland",
+                "NOTE_ADM0": null,
+                "NOTE_BRK": null,
+                "NAME_SORT": "Scotland",
+                "NAME_ALT": null,
+                "MAPCOLOR7": 6,
+                "MAPCOLOR8": 6,
+                "MAPCOLOR9": 6,
+                "MAPCOLOR13": 3,
+                "POP_EST": 64769452,
+                "POP_RANK": 16,
+                "GDP_MD_EST": 2788000,
+                "POP_YEAR": 2017,
+                "LASTCENSUS": 2011,
+                "GDP_YEAR": 2016,
+                "ECONOMY": "1. Developed region: G7",
+                "INCOME_GRP": "1. High income: OECD",
+                "WIKIPEDIA": -99,
+                "FIPS_10_": "UK",
+                "ISO_A2": "GB",
+                "ISO_A3": "GBR",
+                "ISO_A3_EH": "GBR",
+                "ISO_N3": "826",
+                "UN_A3": "826",
+                "WB_A2": "GB",
+                "WB_A3": "GBR",
+                "WOE_ID": -90,
+                "WOE_ID_EH": 23424975,
+                "WOE_NOTE": "Eh ID includes Channel Islands and Isle of Man. UK constituent countries of England (24554868), Wales (12578049), Scotland (12578048), and Northern Ireland (20070563).",
+                "ADM0_A3_IS": "GBR",
+                "ADM0_A3_US": "GBR",
+                "ADM0_A3_UN": -99,
+                "ADM0_A3_WB": -99,
+                "CONTINENT": "Europe",
+                "REGION_UN": "Europe",
+                "SUBREGION": "Northern Europe",
+                "REGION_WB": "Europe & Central Asia",
+                "NAME_LEN": 14,
+                "LONG_LEN": 14,
+                "ABBREV_LEN": 4,
+                "TINY": -99,
+                "HOMEPART": 1,
+                "MIN_ZOOM": 0,
+                "MIN_LABEL": 1.7,
+                "MAX_LABEL": 6.7
+            },
+            "bbox": [
+                -7.572168,
+                49.96,
+                1.681531,
+                58.635
+            ],
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -2.040621,
+                                55.805391
+                            ],
+                            [
+                                -3.164191,
+                                54.95732
+                            ],
+                            [
+                                -4.95631,
+                                54.633474
+                            ],
+                            [
+                                -5.211152,
+                                54.999779
+                            ],
+                            [
+                                -5.802427,
+                                55.261594
+                            ],
+                            [
+                                -5.564479,
+                                58.575803
+                            ],
+                            [
+                                -2.835532,
+                                58.595288
+                            ],
+                            [
+                                -3.919634,
+                                57.627699
+                            ],
+                            [
+                                -1.601899,
+                                57.637705
+                            ],
+                            [
+                                -2.517778,
+                                56.261728
+                            ],
+                            [
+                                -2.013903,
+                                55.828963
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        },
         {
             "type": "Feature",
             "properties": {
