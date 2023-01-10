@@ -1363,7 +1363,7 @@
                 58.635
             ],
             "geometry": {
-                "type": "MultiPolygon",
+                "type": "Polygon",
                 "coordinates": [
                     [
                         [
