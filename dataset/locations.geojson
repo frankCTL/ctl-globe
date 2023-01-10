@@ -2823,7 +2823,7 @@
                 58.635
             ],
             "geometry": {
-                "type": "Polygon",
+                "type": "MultiPolygon",
                 "coordinates": [
                     [
                         [
